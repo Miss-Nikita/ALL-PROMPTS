@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.header{
+height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11CCC3;
+}
+
+.main{
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    margin-top: 15%;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(148, 147, 147);
+
+
+}
+.main1 >img{
+    height: 450px;
+    width: 390px;
+    border-radius: 10px;
+}
+.main2{
+    box-shadow: 0px 0px 3px rgb(148, 147, 147);
+}
+.main2>h1{
+    color: #5F626A;
+    padding: 10px;
+    padding-top: 39px;
+    
+}
+
+.name{
+    color: #11CCC3;
+    padding: 10px ;
+}
+.card{
+    color: #11CCC3;
+    padding: 10px;
+}
+
+.a  >i{
+color: #11CCC3;
+padding: 10px;
+}
+.b{
+    color: #11CCC3;
+}
+.s{
+    padding: 10px;
+}
+.s>i{
+    color: #11CCC3;
+}
+.flexclass{
+    display: flex;
+
+}
+label{
+    color: #5F626A;
+    padding: 10px;
+}
+input{
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid #CCD4DA;
+
+}
+::placeholder{
+    color: #CCD4DA;
+}
+
+button{
+    padding: 9px;
+    width: 80%;
+    background-color: #11CCC3;
+    color: white;
+    margin: 29px;
+    border: none;
+    border-radius: 8px;
+}

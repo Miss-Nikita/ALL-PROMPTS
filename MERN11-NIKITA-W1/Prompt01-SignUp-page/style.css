@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 213, 213, 0.37);
+    /* background-color: rgba(230, 96, 96, 0.37); */
+    background-color: #000;
+}
+.main1 {
+    height: 80%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10%; */
+    /* background-color: rgb(170, 146, 146); */
+    /* background-color: rgb(168, 168, 211); */
+    background-color: #fff;
+
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.img>img {
+    height: 380px;
+    width: 380px;
+    object-fit: cover;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+}
+.page >h1{
+    
+    font-size: 35px;
+    /* padding-bottom: 8%; */
+    padding-top: 10px;
+}
+.page > input{
+    margin-top: 20px;
+    padding: 11px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: rgb(212, 192, 192);
+    /* background-color: rgb(170, 146, 146); */
+}
+
+button{
+    padding: 15px 19px;
+    margin-top: 6%;
+    background-color: rgb(212, 192, 192);
+    border: 1px solid gray;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 5px;
+    /* background-color: #107ed9; */
+    /* color: gray; */
+}
+.img >h1{
+    text-align: center;
+    color: rgb(48, 32, 32);
+    padding-top: 15px;
+    /* margin-top: 10px; */
+}
+.img > h1> span{
+    color: rgb(238, 228, 228);
+}
+.img >h2{
+    text-align: center;
+    color: rgb(31, 23, 23);
+}
+.img>h3{
+    font-size: 15px;
+    color: rgb(59, 56, 56);
+    font-weight: 100;
+    text-decoration: underline;
+    margin-bottom: 5%;
+    text-align: end;
+}
+.img>p{
+    text-align: center;
+    /* width: 80%; */
+    font-size: 10px;
+    padding-top: 9px;
+    /* left: 9px; */
+    color: rgb(95, 89, 89);
+}
+    
