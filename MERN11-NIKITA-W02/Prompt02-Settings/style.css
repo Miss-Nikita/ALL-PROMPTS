@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* background-color: rgb(155, 107, 107);  */
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main1 {
+    height: 95%;
+    width: 23%;
+    background-color: #F5F5F5;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+.main2 {
+    height: 95%;
+    width: 23%;
+    background-color: #252525;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+.footer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+
+.footer>i {
+    font-size: 19px;
+}
+
+.footer>h1 {
+    font-size: 19px;
+}
+
+.general>h1{
+    font-size: 15px;
+    color: #292929;
+    padding: 5px;
+}
+.general1 {
+    background-color: #FFFFFF;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    /* margin: 12px; */
+}
+.general1>a{
+    text-decoration: none;
+    color: #292929;
+    font-size: 12px;
+}
+.profile1{
+    margin-left: 64%;
+}
+.profile2{
+    margin-left: 57%;
+}
+.profile{
+    margin-left: 55%;
+}
+.profile3{
+    margin-left: 55%;
+}
+.profile4{
+    margin-left: 43%;
+
+}
+.transaction>h1{
+    font-size: 15px;
+    color: #292929;
+    padding: 5px;
+}
+.transaction1{
+    margin-left: 63%;
+
+}
+.preference>h1{
+    font-size: 15px;
+    color: #292929;
+    padding: 5px;
+}
+.preference1{
+    margin-left: 40%;
+}
+.preference2{
+    margin-left: 40%;
+}
+.share>h1{
+    font-size: 15px;
+    color: #292929;
+    padding: 5px;
+}
+.share1{
+    margin-left: 60%;
+}
+.share2{
+    margin-left: 50%;
+}
+.other>h1{
+    font-size: 15px;
+    color: #292929;
+    padding: 5px;
+}
+.other1{
+    margin-left: 43%;
+}
+.other2{
+    margin-left: 52%;
+}
+.other3{
+    margin-left: 57%;
+}
+.other4{
+    margin-left: 51%;
+}
+.other5{
+    margin-left: 59%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer1 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+.footer1>i {
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.footer1>h1 {
+    font-size: 19px;
+    color: #fff;
+}
+.generalA>h1{
+    font-size: 15px;
+    /* color: #292929; */
+    color: #fff;
+    padding: 5px;
+}
+.generala {
+    background-color: #000000;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    /* margin: 12px; */
+}
+.generala>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.generala>i{
+    color: #FFFFFF;
+}
+.profilea{
+    margin-left: 64%;
+    
+}
+.profilea>i{
+    color: #FFFFFF;
+}
+.profileb{
+    margin-left: 57%;
+}
+.profileb>i{
+    color: #FFFFFF;
+}
+.profile{
+    margin-left: 55%;
+}
+.profile>i{
+    color: #FFFFFF;
+}
+.profilec{
+    margin-left: 55%;
+}
+.profilec>i{
+    color: #FFFFFF;
+}
+.profiled{
+    margin-left: 43%;
+}
+.profiled>i{
+    color: #FFFFFF;
+}
+.transactionA>h1{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px;
+}
+.transactiona{
+    margin-left: 63%;
+}
+.transactiona>i{
+    color: #FFFFFF;
+}
+.preferenceA>h1{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+}
+.preferencea{
+    margin-left: 40%;
+}
+.preferenceb{
+    margin-left: 40%;
+}
+.preferencea>i{
+    color: #FFFFFF;
+}
+.preferenceb>i{
+    color: #FFFFFF;
+}
+.shareA>h1{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+}
+.sharea{
+    margin-left: 60%;
+}
+.sharea>i{
+    color: #FFFFFF;
+}
+.shareb{
+    margin-left: 50%;
+}
+.shareb>i{
+    color: #FFFFFF;
+}
+.otherA>h1{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+}
+.othera{
+    margin-left: 43%;
+}
+.othera>i{
+    color: #FFFFFF;
+}
+.otherb{
+    margin-left: 52%;
+}
+.otherb>i{
+    color: #FFFFFF;
+}
+.otherc{
+    margin-left: 57%;
+}
+.otherc>i{
+    color: #FFFFFF;
+}
+.otherd{
+    margin-left: 51%;
+}
+.otherd>i{
+    color: #FFFFFF;
+}
+.othere{
+    margin-left: 59%;
+}
+.othere>i{
+    color: #FFFFFF;
+}
