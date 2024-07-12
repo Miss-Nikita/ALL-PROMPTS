@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #F4F5F9;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 38px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+header a {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+header i {
+    margin-left: 45%;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.head1 {
+    padding: 8px 25px;
+    border: none;
+    border-right: none;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.head1 h6 {
+    color: gray;
+}
+
+.head h4 {
+    font-size: 12px;
+}
+
+.head2 {
+    padding: 8px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-left: -20px;
+    text-align: center;
+    background-color: #2972E1;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+.contain {
+    height: 74%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 8px;
+}
+
+.screen1 {
+    height: 99%;
+    width: 20%;
+    background-color: #ECC6FF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.screen1 h1 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.screen1 p {
+    font-size: 11px;
+    padding: 10px;
+}
+
+.screen1 h2 {
+    font-size: 25px;
+}
+
+.screen1 button {
+    margin: 13px;
+    padding: 14px 33px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: #FFF;
+    border: none;
+    background-color: #B418FF;
+}
+
+.screen1 button i {
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    font-size: 19px;
+    margin-right: 20px;
+    color: #000;
+    background-color: #fff;
+}
+
+.screen2 {
+    height: 99%;
+    width: 20%;
+    background-color: #CDEDFA;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+.screen2 button {
+    margin: 13px;
+    padding: 14px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: #FFF;
+    border: none;
+    background-color: #B418FF;
+}
+
+.screen2 button i {
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    font-size: 19px;
+    margin-right: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+.screen2 h1 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.screen2 p {
+    font-size: 11px;
+    padding: 10px;
+}
+
+.screen2 h2 {
+    font-size: 30px;
+
+    margin-top: 5px;
+
+}
+
+.screen2 h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.screen3 {
+    height: 99%;
+    width: 20%;
+    background-color: #FFEAB5;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.screen3 h1 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.screen3 p {
+    font-size: 11px;
+    padding: 10px;
+}
+
+.screen3 h2 {
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+.screen3 h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.screen3 button {
+    margin: 13px;
+    padding: 14px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: #FFF;
+    border: none;
+    background-color: #B418FF;
+}
+
+.screen3 button i {
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    font-size: 19px;
+    margin-right: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+.list {
+    text-align: left;
+}
+
+.list p {
+    font-size: 12px;
+    font-weight: 1000;
+}
+
+.list a {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.list i {
+    margin-right: 10px;
+}

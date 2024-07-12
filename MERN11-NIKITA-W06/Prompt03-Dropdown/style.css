@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    font-family: Arial, sans-serif;
+}
+
+nav img {
+    height: 70px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.list>a {
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.list i {
+    font-size: 20px;
+}
+
+nav button {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid rgb(43, 41, 41);
+    border-radius: 10px;
+}
+
+.dropdown {
+    height: 75%;
+    width: 70%;
+    background-color: #fff;
+    z-index: 999999;
+    position: fixed;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 8px rgb(214, 208, 208);
+    /* transition: all ease-in-out 0.25s; */
+}
+
+.about-list h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.investment-list h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.list1 i {
+    font-size: 23px;
+    color: rgb(99, 99, 238);
+}
+
+.heading {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.heading h2 {
+    font-size: 17px;
+    padding-bottom: 3px;
+}
+
+.heading h3 {
+    font-size: 13px;
+    color: gray;
+}
+
+.img-content {
+    height: 74%;
+    width: 45%;
+    border: none;
+    background-color: #E1E2E2;
+    margin-right: 50px;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+.img-content h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.img-content a {
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgb(77, 74, 74);
+    font-weight: 450;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.img1 img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(160, 154, 154);
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+.img2 img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 8px;
+    border: 1px solid rgb(163, 155, 155);
+    margin-left: 10px;
+
+}
+
+.p h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.p h3 {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: -7px;
+}
+
+.p h4 {
+    font-size: 15px;
+    margin-top: 25px;
+    text-decoration: underline;
+    color: rgb(65, 62, 62);
+
+}
+
+.content {
+    height: 84%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(183, 197, 217, 1) 0%, rgba(73, 109, 161, 1) 100%);
+    z-index: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.content img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.page-content {
+    padding-left: 10%;
+}
+
+.page-content h1 {
+    font-size: 46px;
+    font-family: sans-serif;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+.page-content h2 {
+    font-family: sans-serif;
+}
+
+.page-content p {
+    width: 80%;
+    padding: 20px 0px;
+    color: #3a3333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.page-content button {
+    padding: 15px 30px;
+    margin-top: 12%;
+    background-color: #0023FF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}

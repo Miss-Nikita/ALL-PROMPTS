@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 {
+    height: 95%;
+    width: 85%;
+    background-color: #232323;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.screen1 {
+    height: 100%;
+    width: 15%;
+    padding: 30px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list1>i {
+    font-size: 29px;
+    color: rgb(0, 35, 255);
+}
+
+.list1>h2 {
+    font-size: 19px;
+    color: rgb(0, 35, 255);
+}
+
+.list2>i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.list2>h2 {
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.screen2 {
+    height: 100%;
+    width: 80%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 20px;
+}
+
+.nav>h2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav>a {
+    color: rgb(0, 35, 255);
+    padding: 0px 3px;
+    border-bottom: 4px solid rgb(0, 35, 255);
+}
+
+.head2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav2 {
+    display: flex;
+    gap: 78%;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #292828;
+}
+
+.nav2A {
+    display: flex;
+    justify-content: space-between;
+    gap: 350%;
+    align-items: center;
+    color: rgb(0, 35, 255);
+}
+
+.poster1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: #333030;
+    border-radius: 10px;
+}
+
+.poster1>img {
+    height: 210px;
+    width: 200px;
+    object-fit: cover;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.img>img {
+    height: 210px;
+    width: 190px;
+    object-fit: cover;
+    margin: 5px 5px;
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+
+.poster2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster2>img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
