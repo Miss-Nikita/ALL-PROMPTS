@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    height: 98%;
+    width: 92%;
+    background-color: #c7cbd3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.screen1 {
+    height: 97%;
+    width: 25%;
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+
+}
+
+.screen2 {
+    height: 97%;
+    width: 25%;
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    padding: 12px 0;
+}
+
+.content>i {
+    font-size: 20px;
+}
+
+.content>a {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(206, 199, 199);
+    padding-right: 5px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.content1>h2 {
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #F1294B;
+    color: #fff;
+}
+
+.content1>h3 {
+    font-size: 13px;
+    color: rgb(168, 164, 164);
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: end;
+    margin: 14px 0;
+    padding: 10px 11px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 5px rgb(168, 164, 164, 0.6);
+}
+
+.con1>h3 {
+    font-size: 18px;
+    color: rgb(92, 85, 85);
+}
+
+.con2>a {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f4146;
+}
+
+.con2>i {
+    color: #F1294B;
+    font-size: 22px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.con2>p {
+    color: rgb(92, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.content3>h3 {
+    font-size: 18px;
+    color: rgb(92, 85, 85);
+    /* padding: 5px; */
+    margin-bottom: 20px;
+}
+
+.content3>a {
+    border: 1px solid rgb(187, 174, 174);
+    padding: 10px 13px;
+    font-size: 14px;
+    margin-left: 5px;
+    border-radius: 23px;
+    color: #c7cbd3;
+}
+
+.content3>span {
+    border: 1px solid #F1294B;
+    padding: 10px 13px;
+    font-size: 14px;
+    margin-left: 5px;
+    border-radius: 23px;
+    color: #F1294B;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 90px;
+    margin-left: 3px;
+    color: #fff;
+    background-color: #F1294B;
+    border-radius: 20px;
+    border: none;
+}
+
+.icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons>i {
+    font-size: 18px;
+    color: #8b8e94;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    padding: 12px 0;
+}
+
+.first>i {
+    font-size: 20px;
+}
+
+.first>a {
+    /* margin-left: 50px; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 15px;
+    background-color: #F1294B;
+    color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.third {
+    background-color: #FFFFFF;
+
+}
+
+.third>h2 {
+    font-size: 13px;
+    padding-top: 15px;
+    color: #8b8e94;
+}
+
+.third>h3 {
+    font-size: 17px;
+    color: #3f4146;
+    margin-bottom: 10px;
+}
+
+.thr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thi1>h2 {
+    font-size: 13px;
+    padding-top: 15px;
+    color: #8b8e94;
+}
+
+.thi1>h3 {
+    font-size: 17px;
+    color: #3f4146;
+}
+
+.thi2 {
+    text-align: end;
+}
+
+.thi2>h2 {
+    font-size: 13px;
+    padding-top: 15px;
+    color: #8b8e94;
+}
+
+.thi2>h3 {
+    font-size: 17px;
+    color: #3f4146;
+}
+
+.third>img {
+    height: 136px;
+    width: 100%;
+}
+
+.iconss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconss>i {
+    font-size: 18px;
+    color: #8b8e94;
+}

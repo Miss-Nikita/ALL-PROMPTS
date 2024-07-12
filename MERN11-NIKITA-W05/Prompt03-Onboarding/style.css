@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #D1EAF0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.screen1 {
+    height: 88%;
+    width: 20%;
+    background-color: #f1749c;
+    border-radius: 20px;
+    margin-top: 29px;
+}
+
+.screen1>img {
+    height: 250px;
+    width: 265px;
+    object-fit: cover;
+    margin-left: 3px;
+    margin-top: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.screen1>h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding-left: 20px;
+
+}
+
+.screen1>p {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.screen1>button {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #e73360;
+    border-radius: 15px;
+    border: none;
+    font-size: 19px;
+}
+
+.screen2 {
+    height: 88%;
+    width: 20%;
+    background-color: #73BBD1;
+    border-radius: 20px;
+    margin-top: 29px;
+}
+
+.screen2>img {
+    height: 250px;
+    width: 265px;
+    object-fit: cover;
+    margin-left: 3px;
+    margin-top: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.screen2>h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding-left: 20px;
+
+}
+
+.screen2>p {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.screen2>button {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #108AB1;
+    border-radius: 15px;
+    border: none;
+    font-size: 19px;
+}
+
+.screen3 {
+    height: 88%;
+    width: 20%;
+    background-color: #6DE2C8;
+    border-radius: 20px;
+    margin-top: -40px;
+}
+
+.screen3>img {
+    height: 260px;
+    width: 285px;
+    object-fit: cover;
+    margin-left: 4px;
+    margin-top: -14px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.screen3>h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding-left: 20px;
+
+}
+
+.screen3>p {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.screen3>button {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #06D7A0;
+    border-radius: 15px;
+    border: none;
+    font-size: 19px;
+}
