@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.on-screen {
+    height: 90%;
+    width: 20%;
+    background-color: #fff;
+    background-image: url("https://media.istockphoto.com/id/910539194/photo/waving-golden-glitter-and-confetti.jpg?s=612x612&w=0&k=20&c=_rPEWrRIBFb1jZ0hX_lUBEQe8jhRtR3Xx9Vj6jVWpaQ=");
+    background-repeat: repeat;
+    background-position: bottom;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(209, 204, 169, 0.452),
+        -10px -10px -15px rgba(31, 30, 22, 0.205);
+}
+
+.on-screen h1 {
+    color: #000;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.on-screen button {
+    padding: 0px 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgba(209, 204, 169, 0.452);
+}
+
+.on-screen i {
+    font-size: 50px;
+    color: gold;
+}
+
+.off-screen {
+    height: 90%;
+    width: 20%;
+    background-color: #000;
+    background-image: url("https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.webp?b=1&s=170667a&w=0&k=20&c=GA9kMeXVlxEofCEBhETOfi1aiZE39rPxMsefAW7KE94=");
+    background-repeat: repeat;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(209, 204, 169, 0.452),
+        -10px -10px -15px rgba(209, 204, 169, 0.452);
+}
+
+.off-screen h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.off-screen button {
+    padding: 0px 60px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: rgba(209, 204, 169, 0.452);
+    margin-top: 80%;
+}
+
+.off-screen i {
+    font-size: 50px;
+    color: #fff;
+}
