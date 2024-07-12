@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: papayawhip;
+}
+
+nav {
+    height: 10%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+nav>h1 {
+    font-size: 29px;
+    color: rgb(3, 3, 68);
+}
+
+.links>a {
+    text-decoration: none;
+    color: rgb(3, 3, 68);
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.links>button {
+    padding: 13px 20px;
+    color: white;
+    background-color: rgb(131, 131, 218);
+    border: none;
+    border-radius: 33px;
+    font-size: 15px;
+}
+
+.container1 {
+    height: 65%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.heading>h1 {
+    font-size: 45px;
+    color: rgb(3, 3, 68);
+}
+
+.heading>h2 {
+    font-size: 45px;
+    color: rgb(226, 111, 69);
+    padding-top: 10px;
+}
+
+.heading>p {
+    font-size: 20px;
+    color: gray;
+    padding-top: 20px;
+
+}
+.dog-imgs{
+    width: 80%;
+    margin: auto;
+}
+
+.dog-imgs>img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
