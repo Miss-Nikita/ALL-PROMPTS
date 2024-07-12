@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.main1 {
+    height: 95%;
+    width: 65%;
+    background-color: #CBCAC5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.content1>img {
+    height: 70%;
+    width: 72%;
+    object-fit: cover;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.content2 {
+    height: 90%;
+    width: 46%;
+    background-color: white;
+    margin-right: 70px;
+    border-radius: 20px;
+}
+
+.boxs {
+    padding: 20px 40px;
+}
+
+.box1 {
+    border-bottom: 1px solid gray;
+}
+
+.box1>h1 {
+    font-weight: 100;
+    font-size: 29px;
+    padding-bottom: 5px;
+}
+
+.box1>p {
+    text-align: left;
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.box2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 18px;
+}
+
+.box2>h1 {
+    font-weight: 1000;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.boxa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.boxa>h2 {
+    font-size: 13px;
+    color: red;
+}
+.boxa>h3 {
+    font-size: 13px;
+    color: gray;
+}
+.boxa>h1 {
+    font-size: 13px;
+    font-family: Impact, ' Bold';
+    font-weight: 100;
+}
+.boxa>h5{
+    font-size: 12px;
+}
+.boxb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxc{
+    padding-top: 10px;
+}
+.boxc>h1{
+    font-size: 14px;
+    padding-top: 13px;
+}
+.boxc>a{
+    font-size: 13px;
+    color: gray;
+}
+#ab{
+    color: #0c55a8;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 3px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+.boxc>h2{
+    font-size: 12px;
+    padding-top: 2px;
+    color: gray;
+}
+.boxd>h1{
+    font-size: 17px;
+}
+.boxd>h2{
+    font-size: 13px;
+    padding-top: 10px;
+    color: gray;
+}
+button{
+    margin-left: 20%;
+    padding: 10px 20px;
+    margin-top: 18px;
+    background-color: black;
+    color: #fff;
+    font-size: 17px;
+    border: 3px solid red;
+    border-radius: 4px;
+}
